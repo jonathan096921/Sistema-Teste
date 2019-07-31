@@ -146,8 +146,10 @@ salvar(){
           alert('Cadastrado com sucesso!')
           this.listar()
 
-},
+}, 
+   
 
+   
 atualizar() {
       axios
         .put(
